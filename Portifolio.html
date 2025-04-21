@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed - Frontend Developer</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="/images/emoji.jpg" alt="My pic" class="profile-img floating">
+            <h1>Mohammed Hassen</h1>
+            <p class="typing-text">Frontend Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/Babahass"><i class="fab fa-github"><img src="/Images/github.jpg" alt="GitHub"> </i></a>
+                <a href="#"><i class="fab fa-linkedin"><img src="/Images/linkedin.jpg" alt="linkedin"> </i></a>
+                <a href="#"><i class="fab fa-twitter"><img src="/Images/tiktok.jpg" alt="tiktok"></i></a>
+                <a href="https://www.instagram.com/baba_has3"><i class="fab fa-instagram"><img src="/Images/insta.jpg" alt="Instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-section">
+            <p class="about-text">
+                "I'm a passionate frontend developer with a keen eye for design and functionality. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and user-friendly interfaces that provide exceptional user experiences. I thrive on turning creative ideas into reality, solving complex problems, and continuously learning new technologies to stay ahead in the ever-evolving world of web development. When I'm not coding, I enjoy exploring anime, documentary , and finding inspiration in the little details of everyday life."            </p>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percent="95"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percent="90"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percent="85"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percent="80"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>Python</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percent="60"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/Images/project.png" alt="Project 1" class="project-img">
+                <div class="project-info">
+                    <h3>Anime  Platform</h3>
+                    <p>Modern Anime Website Clone</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn">Live Demo</a>
+                        <a href="#" class="project-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200" alt="Project 2" class="project-img">
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>Collaborative task management system</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>SCSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn">Live Demo</a>
+                        <a href="#" class="project-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200" alt="Project 3" class="project-img">
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather forecast application</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn">Live Demo</a>
+                        <a href="#" class="project-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <form id="contact-form" class="contact-form">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="form-group">
+          <input type="text" name="user_name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="user_email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Mohammed Hassen. All rights reserved.</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
